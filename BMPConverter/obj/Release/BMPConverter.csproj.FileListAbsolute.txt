@@ -1,0 +1,3 @@
+C:\Users\z003cr8h\Desktop\Private\C#\BMPConverter\BMPConverter\obj\Release\BMPConverter.csprojResolveAssemblyReference.cache
+C:\Users\z003cr8h\Desktop\Private\C#\BMPConverter\BMPConverter\obj\Release\BMPConverter.dll
+C:\Users\z003cr8h\Desktop\Private\C#\BMPConverter\BMPConverter\obj\Release\BMPConverter.pdb

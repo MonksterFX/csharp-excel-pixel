@@ -1,0 +1,6 @@
+c:\users\z003cr8h\documents\visual studio 2015\Projects\BMPConverter\BMPConverter\bin\Debug\BMPConverter.dll
+c:\users\z003cr8h\documents\visual studio 2015\Projects\BMPConverter\BMPConverter\bin\Debug\BMPConverter.pdb
+c:\users\z003cr8h\documents\visual studio 2015\Projects\BMPConverter\BMPConverter\obj\Debug\BMPConverter.dll
+c:\users\z003cr8h\documents\visual studio 2015\Projects\BMPConverter\BMPConverter\obj\Debug\BMPConverter.pdb
+C:\Users\z003cr8h\Documents\Visual Studio 2015\Projects\BMPConverter\BMPConverter\bin\Debug\BMPConverter.tlb
+C:\Users\z003cr8h\Documents\Visual Studio 2015\Projects\BMPConverter\BMPConverter\obj\Debug\BMPConverter.csprojResolveAssemblyReference.cache
