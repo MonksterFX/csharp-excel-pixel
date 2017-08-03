@@ -76,7 +76,7 @@ namespace BMPConverter
 
             UInt32 pixel = 0;
        
-               for (UInt32 vPos = vSize; vPos > 0; vPos--)
+            for (UInt32 vPos = vSize; vPos > 0; vPos--)
             {
             for (UInt32 hPos = 0; hPos < hSize; hPos++)
                 {

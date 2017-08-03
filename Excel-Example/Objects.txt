@@ -1,0 +1,40 @@
+Option Explicit
+
+Dim BMPCon As BMPConverter.BMPConverter
+
+Public Sub PrintPixel()
+    Dim path As String
+
+    Set BMPCon = New BMPConverter.BMPConverter
+    
+    'first load image
+    Debug.Print (BMPCon.LoadImage("C:\Users\Mönch\Pictures\max-mönch-foto.1024x1024.bmp"))
+    Call BMPCon.ConvertToByteArray
+    
+    Dim PixelsRaw() As RGBPixel
+    PixelsRaw = BMPCon.GetPixels()
+    
+    Dim iWidth As Integer
+    iWidth = BMPCon.GetHSize()
+    Dim iHeight As Integer
+    iHeight = BMPCon.GetVSize()
+    
+    Dim iRunnerH As Long
+    Dim iRunnerV As Long
+    
+    iRunnerH = 1
+    iRunnerV = 1
+    
+    Dim rng As Range
+    
+    For iRunnerH = 0 To iWidth - 1
+        For iRunnerV = 0 To iHeight - 1
+            Set rng = ws.Cells(iRunnerV + 1, iRunnerH + 1)
+            Dim pixel As RGBPixel
+            Dim index As Integer
+            index = iRunnerH + iRunnerV * iWidth
+            Set pixel = PixelsRaw(index)
+            rng.Interior.Color = RGB(pixel.Red, pixel.Green, pixel.Blue)
+        Next
+    Next
+End Sub
